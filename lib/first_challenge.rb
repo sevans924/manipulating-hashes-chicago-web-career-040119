@@ -17,8 +17,9 @@ contacts.each do |person, data|
 
   data.each do |attribute, value|
 
-      value.delete_if do |flavor|
-      flavor == "strawberry"
+      value.each do |icecream, flavor|
+      if flavor == "strawberry"
+        flavor.delete
     end
   end
 end
