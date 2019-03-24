@@ -20,6 +20,7 @@ if attribute == :favorite_icecream_flavors
       value.each do |icecream, flavor|
       if flavor == "strawberry"
         flavor.delete
+end
       end
       end
     end
