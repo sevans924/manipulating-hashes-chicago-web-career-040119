@@ -19,11 +19,8 @@ if attribute == :favorite_icecream_flavors
       if flavor == "strawberry"
         flavor.delete
 end
-      end
-      end
-    end
-  end
 end
+endend
 
           #your code here
   #remember to return your newly altered contacts hash!
