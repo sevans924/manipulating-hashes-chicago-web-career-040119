@@ -21,6 +21,7 @@ if attribute == :favorite_icecream_flavors
       if flavor == "strawberry"
         flavor.delete
       end
+      end
     end
   end
 end
